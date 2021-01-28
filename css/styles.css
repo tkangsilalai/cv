@@ -1,0 +1,154 @@
+
+body {
+    font-family: "Montserrat";
+}
+h1,h2,h3,h4,h5,h6 {  font-family: 'Montserrat', sans-serif;  font-size: 4rem;  line-height: 1.5;  font-weight: 900; }
+h2 {    font-size: 3rem;  line-height: 1.5;  font-weight: 900; }
+h3 {    font-size: 1.5rem;  font-weight: 900; }
+
+p {
+    font-size: 1rem;
+    color: #8f8f8f;
+}
+
+/* ิsection title */
+#title{
+    padding-top: 5%;
+    background-color: #a6e3e9;
+    color: white;
+}
+.container-fluid {
+    padding: 3% 15%;
+}
+.navbar{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    padding: 0 15%;
+    background-color: #71c9ce;
+    z-index: 2;
+}
+.navbar-brand{
+    font-family: 'Montserrat', sans-serif;  font-size: 1.5rem;  line-height: 2;  font-weight:400;
+}
+.nav-item{
+    font-family: 'Montserrat', sans-serif;  font-size: 1rem;  line-height: 2;  font-weight: 400; padding: 0 18px ;
+}
+#me-img{
+    position: absolute;
+    z-index: 1;
+    padding-left: 10%;
+    width: 40%;
+}
+
+/* section education */
+#edu{
+    background-color: #e3fdfd;
+    text-align: left;
+    padding: 7% 15%;
+    position: relative;
+}
+.edu-i {
+    font-size: 4rem;
+    color: #a6e3e9;
+}
+.edu-i:hover {
+    color: #71c9ce;
+}
+.edu-box{
+    padding: 5%;
+}
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%71c9ce' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+   }
+   
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%71c9ce' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+.transcript-img{
+    width: 100%;
+}
+
+/* section Activities */
+#activities{
+    text-align: center;
+    background-color: #a6e3e9;
+    color: white;
+    padding: 3% 15%;
+}
+.car-act-item{
+    font-family: 'Prompt', sans-serif;
+}
+.act-img{
+    width: 70%;
+    padding: 3% 0;
+}
+.act-i {
+    font-size: 4rem;
+    color: #cbf1f5;
+}
+.act-i:hover {
+    color: #e3fdfd;
+}
+
+/* section Skilss */
+#skills{
+    text-align: center;
+    background-color: #e3fdfd;
+    padding: 3% 30%;
+}
+.skill-row{
+    text-align: left;
+}
+
+/* section Projects */
+#projects{
+    text-align: center;
+    background-color: #a6e3e9;
+    color: white;
+    padding: 3% 15%;
+}
+.card-header{
+    color: black;
+}
+.card-body{
+    color: black;
+}
+.project-a{
+    font-size: 1rem;
+    color: #8f8f8f;
+}
+.project-a:hover{
+    font-size: 1rem;
+    color: black;
+}
+
+
+.footer-icon{
+    padding: 0 1%;
+}
+
+#hire{
+    color: white;
+    background-color: #71c9ce;
+    text-align: center;
+    padding: 7% 20%;
+}
+#footer{
+    background-color: white;
+    text-align: center;
+    padding: 7% 20%;
+}
+@media (max-width:1028px){
+    #me-img {
+        position : static;
+        transform: rotate(0);
+        width: 60%;
+    }
+    #title {
+        text-align: center;
+    }
+    #edu {
+        text-align: center;
+    }
+}
