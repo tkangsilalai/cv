@@ -38,7 +38,7 @@ p {
     position: absolute;
     z-index: 1;
     padding-left: 10%;
-    width: 40%;
+    width: 46%;
 }
 
 /* section education */
@@ -149,9 +149,10 @@ p {
 }
 @media (max-width:1028px){
     #me-img {
+        text-align: center;
         position : static;
         transform: rotate(0);
-        width: 60%;
+        width: 100%;
     }
     #title {
         text-align: center;
